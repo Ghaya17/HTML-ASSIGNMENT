@@ -1,0 +1,14 @@
+Question 1: What are HTML forms used for? Describe the purpose of the input, textarea, select, and button elements
+
+Answer: HTML Forms use the <form> tag to collect user input through various interactive controls. These controls range from text fields, numeric inputs, and email fields to password fields, checkboxes, radio buttons, and submit buttons.
+An HTML form is used to collect user input. The user input is most often sent to a server for processing.
+
+
+Question 2: Explain the difference between the GET and POST methods in form submission. When should each be used?
+
+Answer: Use GET for actions that retrieve data without side effects. Use POST for actions that change server state, such as creating or updating resources. Never use GET to transmit sensitive data.
+
+
+Question 3: What is the purpose of the label element in a form, and how does it improve accessibility?
+
+Answer: The <label> element also help users who have difficulty clicking on very small regions (such as radio buttons or checkboxes) - because when the user clicks the text within the <label> element, it toggles the radio button or checkbox.

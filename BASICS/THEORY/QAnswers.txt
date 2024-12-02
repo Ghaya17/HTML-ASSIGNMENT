@@ -1,0 +1,29 @@
+Question 1: Define HTML. What is the purpose of HTML in web development?
+
+Answer:  HTML (HyperText Markup Language) is a programming language that's used to structure and define the content of a web page.
+purpose: HTML tells a web browser how to display text, images, and other content on a page. It also provides context for search engines and designates sections of a page.
+
+
+Question 2: Explain the basic structure of an HTML document. Identify the mandatory tags and their purposes.
+
+Answer:  HTML uses elements, which are delineated by tags written using angle brackets. For example, the <img> tag introduces an image into the page, and the <p> and </p> tags surround and provide information about document text.
+
+
+Question 3: What is the difference between block-level elements and inline elements in HTML? Provide examples of each.
+
+Answer: The main difference between block-level and inline elements in HTML is that block-level elements start on a new line and take up the full width of their parent element, while inline elements do not:
+Block-level elements
+Start on a new line, take up the full width of their parent element, and stack down the page. Examples include paragraphs, ordered and unordered lists, and all headings.
+Inline elements
+Do not start on a new line and only take up the space that their content requires. Examples include anchors (or links), span, input, label, and select elements. 
+Here are some other differences between block-level and inline elements:
+Block elements have top and bottom margins, while inline elements do not.
+Block elements completely fill the accessible area from left to right, while inline elements only cover the area defined by the tags in the HTML element.
+
+
+Question 4: Discuss the role of semantic HTML. Why is it important for accessibility and SEO? Provide examples ofsemantic elements.
+
+A semantic element clearly describes its meaning to both the browser and the developer.
+Examples of non-semantic elements: <div> and <span> - Tells nothing about its content.
+Examples of semantic elements: <form>, <table>, and <article> - Clearly defines its content.
+Many web sites contain HTML code like: <div id="nav"> <div class="header"> <div id="footer"> to indicate navigation, header, and footer.
